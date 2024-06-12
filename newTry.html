@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+            background-color: rgb(33, 33, 33);
+            overflow-x: hidden;
+            margin: 0;
+        }
+        section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 200px;
+            padding: 50px 20vw;
+
+        }
+        .spacer{
+            aspect-ratio: 900/450;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .layer1{
+            background-image: url('./layered-waves-haikei.svg');
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section style="background-color: rgb(97, 55, 247);" >
+        <h1>content</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non dolorum velit pariatur eligendi doloremque dolores quos amet tenetur accusantium? Assumenda quas laudantium dicta alias ullam sit debitis itaque perspiciatis ipsa?</p>
+    </section>
+    <div class="spacer layer1"></div>
+    <section style="background-color: rgb(238, 0, 255);">
+        <h1>content</h1>
+        <p>Iste voluptatibus provident enim laborum eligendi tenetur delectus corrupti error ipsam, vero, cupiditate adipisci officiis soluta voluptate perspiciatis doloremque eum porro, voluptatem vitae facere quo odit! Quas iure rem voluptates!</p>
+    </section>
+    <section style="border-color: black;">
+        <h1>content</h1>
+        <p>Assumenda, maxime. Culpa, doloremque. A provident consequatur illum accusamus dolores necessitatibus eius ipsam magni, saepe quis recusandae quos pariatur debitis sit facere corrupti expedita quae alias officia. Provident, ipsam quam?</p>
+    </section>
+    <section style="background-color: blue;">
+        <h1>content</h1>
+        <p>Eum quis, earum animi reprehenderit autem nihil quae, sapiente alias minima facere itaque modi quod! Cupiditate repellat voluptatibus enim nam perspiciatis ut explicabo veniam eaque. Accusamus optio aliquid id? Ullam?</p>
+    </section>
+
+</body>
+</html>
